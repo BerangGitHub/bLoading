@@ -41,6 +41,9 @@ body, .all
     width: 15%;
     left: 0%;
     height: 20px;
+    
+    /*Pour enlever les bordures rondes, il faut mettre la valeur à 0ch*/
+    border-radius: 0.4ch;
 
     /*Pour mettre en blanc remplacer #000000 par #ffffff*/
     background-color: #000000;

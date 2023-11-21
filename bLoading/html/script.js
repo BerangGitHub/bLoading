@@ -1,8 +1,11 @@
+var setCount = 0;
 var count = 0;
-var thisCount = 0;
-
 
 const handlers = {
+    startInitFunctionOrder(data)
+    {
+        count = data.count;
+    },
 
     initFunctionInvoking(data)
     {
@@ -13,16 +16,14 @@ const handlers = {
     startDataFileEntries(data)
     {
         count = data.count;
-
-        document.querySelector('.berang h3').innerHTML += "\u{1f358}";
     },
 
     performMapLoadFunction(data)
     {
-        ++thisCount;
+        ++setCount;
 
         document.querySelector('.littlebar').style.left = '0%';
-        document.querySelector('.littlebar').style.width = ((thisCount / count) * 100) + '%';
+        document.querySelector('.littlebar').style.width = ((setCount/ count) * 100) + '%';
     }
 };
 
