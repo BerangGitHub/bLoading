@@ -1,0 +1,47 @@
+body, .all
+{
+    margin: 0px;
+    padding: 0px;
+}
+.berang, .berang img {
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background-size: 100% 100%;
+}
+
+.loadbar
+{
+    position: absolute;
+
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+
+    /*Pour enlever les bordures rondes, il faut mettre la valeur à 0ch*/
+    border-radius: 0.4ch;
+
+    width: 90%;
+    height: 20px;
+
+    /*Pour mettre en noir remplacer #ffffff par #000000*/
+    border-color: #ffffff;
+    border: #ffffff 2px solid;
+    background-color: #ffffff; 
+}
+
+.littlebar
+{
+    position: absolute;
+
+    width: 15%;
+    left: 0%;
+    height: 20px;
+
+    /*Pour mettre en blanc remplacer #000000 par #ffffff*/
+    background-color: #000000;
+}
