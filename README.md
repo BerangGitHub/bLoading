@@ -4,4 +4,4 @@
 
 **__Discord:__ berang**
 
-![alt text](https://github.com/BerangGitHub/bLoading/blob/main/image.jpg?raw=true)
+![Preview](https://github.com/BerangGitHub/bLoading/blob/main/preview.png?raw=true)
